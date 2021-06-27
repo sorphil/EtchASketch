@@ -71,7 +71,7 @@ function gridGenerate(gridDimension)
 
 function addGridEventListeners(div)
 {
-    
+
     div.addEventListener('mousemove', (e)=>{
 
         if(toggle==-1) solidStroke(e)

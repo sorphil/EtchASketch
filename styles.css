@@ -12,9 +12,11 @@ html, body
     justify-content: center;
 }
 
+
 header
 {
-    width:100%;
+    height: 100px;
+    width:720px;
     text-align: center;
     background-color: black;
     color: white;
@@ -22,35 +24,41 @@ header
 
 nav
 {
+    height:100px;
     display: flex;
-    border-left: 50px black solid;
-    border-right: 50px black solid;
+    border-left: 53.75px black solid;
+    border-right: 53.75px black solid;
     box-sizing: border-box;
-    width:100%;
+    width:720px;
     justify-content: center;
 }
 
 nav > div
 {
+    
     display: flex;
-    padding:5px;
+    padding:4px;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
 
+.dimensionControl, .colorControl, .otherControl{
+    width:33%;
+}
+
 
 .toggle, #clearbtn
 {
-    width:200px;
+    width:190px;
     background-color: black;
     color: white;
-    height:35px;
-    margin:5px;
     box-sizing: border-box;
     border: 3px black solid;
     cursor: pointer;
+    height:34.5px;
+    margin:5px;
 }
 
 .toggle:active, #clearbtn:active {background-color: rgb(116, 114, 114); color:black}
@@ -61,17 +69,15 @@ nav > div
 
 .colorControl span{display: flex; align-items: center; justify-content: center;}
 
-#colorPicker{width:40px;}
-
+#colorPicker{width:35px;padding: 0; border:none; height:35px;}
 #clearbtn{width:125px;}
-
-
-
 
 
 .container
 {
-    padding: 60px;
+    width:720px;
+    box-sizing: border-box;
+    padding:52.5px 53.7px 52.5px 53.7px ;
     background-color: black;
     display:grid;
 }
@@ -80,5 +86,5 @@ nav > div
 {
     background-color: white;
     border-collapse: collapse;
-    border: 1px solid rgb(119, 118, 118);
+    border: 0.1vmin solid rgb(119, 118, 118);
 }
