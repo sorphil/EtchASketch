@@ -2,7 +2,7 @@
 ## OdinProject Foundations Project 4
 
 ### Live Demo
-![Etch-a-Sketch Gif](https://media.giphy.com/media/9JXTfpydTckokOpLGf/giphy.gify)  
+![Etch-a-Sketch Gif](https://media.giphy.com/media/9JXTfpydTckokOpLGf/giphy.gif)  
 [Etch-a-Sketch 🎨](https://sorphil.github.io/EtchASketch/)   
 
 ### Built with
